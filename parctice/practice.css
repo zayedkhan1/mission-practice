@@ -1,0 +1,165 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-primary{
+    color: crimson;
+    font-weight: 800;
+    height: 45px;
+}
+.btn-primary{
+    background-color: orange;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 30px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    align-items:center ;
+
+}
+.nav-title{
+    margin-left: 50px;
+}
+/* banner working */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banenr-title{
+    font-weight: 700;
+font-size: 85px;
+margin-bottom: 5px;
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 30px;
+margin-top: 5px;
+}
+.description{
+    /* color:gray; */
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #757575;
+}
+header{
+    background: rgba(253, 110, 10, 0.2);
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:bottom right,left;
+
+}
+/* entering the main section */
+.section-title{
+    text-align: center;
+    font-weight: 900;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.info-title{
+    font-size: 20px;
+    /* color: #757575; */
+font-weight: 800;
+}
+.about{
+    padding:130px 79px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+/* main section part 2 */
+.skill-container{
+    display: flex;
+    gap: 20px;
+}
+.skill-description{
+    text-align: center;
+}
+.skills{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+/* color */
+padding: 30px;
+margin: 30px;
+}
+.what-i-do{
+    margin-top: 20px;
+}
+/* next part */
+.resume-content{
+    display: flex;
+    gap: 25px;
+    background-color: #FFFFFF;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+font-size: 25px;
+margin-bottom: 15px;
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+font-size: 20px;
+margin-bottom: 25px;
+
+}
+.resume .description{
+    color: #757575;
+
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-title{
+    margin-bottom: 15px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+    /* background-color: orange; */
+}
+.resume{
+    ax-width: 1140px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+/* last part */
+.contract{
+    display: flex;
+    gap: 100px;
+    background-color: white;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contract .section-title{
+    text-align: left;
+}
+.contract input ,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 25px;
+}
+input{
+    height: 64px;
+}
